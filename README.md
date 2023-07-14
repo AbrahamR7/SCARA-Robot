@@ -89,3 +89,28 @@ As the diagram shows For Q3, when our robot is at the first point (home position
 ![image](https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/752ca48e-62b2-4e66-b8e2-317e08c04c35)
 As the diagram shows, in Q3, For the first point we need speed and acceleration 0 and -1.2 for displacements, and in the second point, we reach speed -2 and acceleration 0 in 6.5 seconds to continue moving. In the same way, we need to control the movement of the robot for the rest of the third to ninth points, where we finally reach the same point as the home position.
 
+![image](https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/7d7eafb5-b29c-4637-a67f-bf24362266d9)
+As the diagram shows For Q4, when our robot is at the first point (home position), our time is 0 and the angle degree is 48. Similarly, in the second, third, fourth to Eighth points, respectively, at times 6.5, 9 , 14 ,18 ,22 ,27 ,29 per seconds apart and the degrees of each of them are 81, 81, -4, -4, 65, 65, -4, respectively. And finally, which is our ninth point, as shown, the robot returns from the degree of movement at the same point of home position, which degree is 48 and in 34 seconds.
+
+![image](https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/580342ee-330b-4b85-b725-469967cda79d)
+As the diagram shows, in Q4, For the first point we need speed and acceleration 0.1 and 1.3 for displacements, and in the second point, we reach speed 0 and acceleration -1.2 in 6.5 seconds to continue moving. In the same way, we need to control the movement of the robot for the rest of the third to ninth points, where we finally reach the same point as the home position.
+
+
+##### Trajectory in working space
+
+we have used the modified trapezoidal motion curve method to obtain the results in this section, the description and operation of which have already been mentioned.
+Here in follow we compare and show the different parameters in working space as the robot direction.
+
+![image](https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/64b16787-507d-4346-be47-59080dbf8599)
+The above diagram shows the changes of the robot in the working space, where the x-axis represents time and the y-axis represents the displacement of the End Effector of our robot in the 3D space.
+The diagram shows that at the first point of the x axis, the robot is at a position of 30 cm at 0 second. Similarly, it reaches 0 cm at the second point and its speed is 0 in this axis. And in the same way, in the third, fourth to ninth points, its changes and the necessary speed and acceleration and turques for each of the points are shown in the diagram.
+
+![image](https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/569e4a1f-70e7-4c3b-b1b8-631e7eef8ce0)
+The diagram shows that at the first point of the y axis, the robot is at a position of 0 cm at 0 second. Similarly, it reaches 15 cm at the second point and its speed is 0 in this axis. And in the same way, in the third, fourth to ninth points, its changes and the necessary speed and acceleration and turques for each of the points are shown in the diagram.
+
+![image](https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/05f30a39-64cd-4957-9b36-fd84358158b3)
+The diagram shows that at the first point of the z axis, the robot is at a position of 0 cm at 0 second. Similarly, it reaches -10 at the second point and its speed is 0 in this axis. And in the same way, in the third, fourth to ninth points, its changes and the necessary speed and acceleration and turques for each of the points are shown in the diagram.
+
+![image](https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/536991b2-6924-4822-a916-063562a4ba33)
+
+This diagram shows the third-dimension variable that does not change over time. In this regard, these results are also considered for speed.
