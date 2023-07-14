@@ -57,4 +57,35 @@ As we mentioned in the introduction, in task 2, we have mission to Execute a pic
 
 ![image](https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/53a8980a-eb70-430e-adbc-f10bf94e7192) <img width="468" alt="image" src="https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/daddbd2e-188d-4a20-90f5-79c2ca4f5dac"> <img width="468" alt="image" src="https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/f9366eeb-6394-4f69-b32d-c2f38bfe20da">
 
+### software programming 
+As we explained in the previous part, to simulate the movement path of our robot, we used SPEL+ programming language which works based on the tool live sensoring tools of EPSON Software and we will check the results below.
+It should also be noted that we Obtain results of trajectory in working space according for task2 to use live sensoring tools of EPSON Software.
+We also display the displacement of the X, Y, Z axes relative to the time variable. 
+![image](https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/521f98d5-ba5e-48c0-98cf-a66b231b84ea)
+
+We have written the MATLAB software codes for two sections Trajectory in Joint space and Trajectory in working space for task 2 which are referred to below and its results are reviewed and analyzed.
+##### Trajectory in Joint space 
+In this part, as in the previous task, we need to use line and parabola method which We have explained how it works to calculate Trajectory in Joint space.
+Now in follow we compare and show the different parameters in joint space as the robot direction.
+
+![image](https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/0c7878fd-05bb-49d2-9bc4-0b83fdb7781d)
+In the diagram shown above, the x-axis represents the time variable, and the y-axis represents the changes in the degree of angle Q1(Joint 1) with respect to time during the entire movement of the robot.
+As the diagram shows For Q1, when our robot is at the first point (home position), our time is 0 and the angle degree is -35. Similarly, in the second, third, fourth to Eighth points, respectively, at times 6.5, 9 , 14 ,18 ,22 ,27 ,29 per seconds apart and the degrees of each of them are -6, -6, -55, -55,-1,-1,-55 respectively. And finally, which is our ninth point, as shown, the robot returns from the degree of movement at the same point of home position, which degree is -35 and in 34 seconds.
+
+![image](https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/c9a1718f-4151-4918-a86d-32e18611dc38)
+In the diagram above shows, the x-axis represents time, and the first diagram shows the speed (y-axis) and the second diagram shows the acceleration (y-axis) in each of our displacement times.	
+As the diagram above shows, there is the amount of speed and acceleration we need to do the displacement for Q1. At the first point of movement from 0 second to the end of movement at 34 second, the required speed and acceleration have been calculated for all 6 movement points of our robot.
+As the diagram shows, in Q1, For the first point we need speed and acceleration 0.09 and 1.5 for displacements, and in the second point, we reach speed 0 and acceleration -1.2 in 6.5 seconds to continue moving. In the same way, we need to control the movement of the robot for the rest of the third to ninth points, where we finally reach the same point as the home position.
+
+![image](https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/5b20dd3a-32c3-4fe8-8c95-f70dce5bebde)
+As the diagram shows For Q2, when our robot is at the first point (home position), our time is 0 and the angle degree is 83. Similarly, in the second, third, fourth to Eighth points, respectively, at times 6.5, 9 , 14 ,18 ,22 ,27 ,29 per seconds apart and the degrees of each of them are 88, 88, 51, 51,68 ,68 ,51 respectively. And finally, which is our ninth point, as shown, the robot returns from the degree of movement at the same point of home position, which degree is 83 and in 34 seconds.
+
+![image](https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/56636c32-3281-4bb0-93ba-6d022014ad9d)
+As the diagram shows, in Q2, For the first point we need speed and acceleration 0.01 and 1.5 for displacements, and in the second point, we reach speed 0 and acceleration -1.2 in 6.5 seconds to continue moving. In the same way, we need to control the movement of the robot for the rest of the third to ninth points, where we finally reach the same point as the home position.
+
+![image](https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/e017a93f-5447-4d8e-96f5-0cc2c03dd635)
+As the diagram shows For Q3, when our robot is at the first point (home position), our time is 0 and the angle degree is 0. Similarly, in the second, third, fourth to Eighth points, respectively, at times 6.5, 9 , 14 ,18 ,22 ,27 ,29 per seconds apart and the degrees of each of them are -580, -290, -580, -290,-580 ,-290 ,-400 respectively. And finally, which is our ninth point, as shown, the robot returns from the degree of movement at the same point of home position, which degree is 0 and in 34 seconds.
+
+![image](https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/752ca48e-62b2-4e66-b8e2-317e08c04c35)
+As the diagram shows, in Q3, For the first point we need speed and acceleration 0 and -1.2 for displacements, and in the second point, we reach speed -2 and acceleration 0 in 6.5 seconds to continue moving. In the same way, we need to control the movement of the robot for the rest of the third to ninth points, where we finally reach the same point as the home position.
 
