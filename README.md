@@ -113,4 +113,3 @@ The diagram shows that at the first point of the z axis, the robot is at a posit
 
 ![image](https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/536991b2-6924-4822-a916-063562a4ba33)
 
-This diagram shows the third-dimension variable that does not change over time. In this regard, these results are also considered for speed.
