@@ -1,0 +1,14 @@
+function Jp = SCARAjacP(Q,Qp,L)
+% time derivative of the Jacobian matrix: SCARA robot
+l1=L(1);
+l2=L(2);
+Jp= zeros(4,2);
+Jp(1,1)= -l1*cos(Q(1))*Qp(1)- l2*cos(Q(1)+Q(2))*(Qp(1)+Qp(2));
+Jp(1,2)= -l2*cos(Q(1)+Q(2))*(Qp(1)+Qp(2));
+Jp(1,3)=0;
+Jp(1,4)=0; 
+Jp(2,1)= -l1*sin(Q(1))*Qp(1)-l2*sin(Q(1)+Q (2))*(Qp(1)+Qp(2));
+Jp(2,2)= -l2*sin(Q(1)+Q(2))*(Qp(1)+Qp(2));
+Jp(2,3)=0;
+Jp(2,4)= 0;
+end
