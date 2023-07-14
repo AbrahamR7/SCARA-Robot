@@ -55,5 +55,6 @@ For this project we create Extended coordinates vector from direct cinematic And
 
 As we mentioned in the introduction, in task 2, we have mission to Execute a pick and place task: start from home position (P0), reach pick position (P1), pick the object A and place A in position (P2); move to P3 the EE, pick object B and place this object in P4. Object B is placed on top on A. Return to the home position. Use the lines and parabula method for trajectory planning. The simulation of the robot's movement path for task2 It is shown in the following section.
 
-![image](https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/53a8980a-eb70-430e-adbc-f10bf94e7192) <img width="468" alt="image" src="https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/daddbd2e-188d-4a20-90f5-79c2ca4f5dac">
+![image](https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/53a8980a-eb70-430e-adbc-f10bf94e7192) <img width="468" alt="image" src="https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/daddbd2e-188d-4a20-90f5-79c2ca4f5dac"> <img width="468" alt="image" src="https://github.com/AbrahamR7/SCARA-Robot/assets/119547831/f9366eeb-6394-4f69-b32d-c2f38bfe20da">
+
 
